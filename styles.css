@@ -7,15 +7,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: url("images/Group\ 132.png");
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden; 
     min-height: 100vh;
 }
 
 #game {
-    width: 95%;
     max-width: 600px;
     display: flex;
     flex-direction: column;
@@ -180,32 +177,4 @@ button:active {
     left: 90%;
     animation-duration: 4.8s;
     animation-delay: 2.3s;
-}
-
-@media (max-width: 768px) {
-    .stat {
-        font-size: 24px;
-    }
-    #text {
-        font-size: 32px; /* Smaller font for text */
-        margin: 15px;
-        padding: 8px;
-    }
-
-    .image {
-        width: 180px; /* Smaller fixed width for image containers */
-        height: 220px; /* Adjust height proportionally */
-    }
-
-    img {
-        width: 160px; /* Smaller fixed width for images */
-        height: 160px; /* Adjust height proportionally */
-        margin-top: 20px; /* Adjust margin */
-    }
-
-    button {
-        font-size: 24px; /* Smaller font for buttons */
-        margin-top: 30px; /* Adjust button width */
-        min-width: 100px; /* Ensure they don't get too small */
-    }
 }
