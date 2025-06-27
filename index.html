@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>kwek-kwek-kwek</title>
+    </head>
+    <body>
+        <div id="game">
+            <div id="stats" onclick="playObjectSound()">
+                <span class="stat">Wins: <strong><span id="winText">0</span></strong></span>
+                <span class="stat">Loses: <strong><span id="loseText">0</span></strong></span>
+                <span class="stat">Draws: <strong><span id="drawText">0</span></strong></span>
+                <audio id="randomObjectPress" src="sounds/button-click-289742.mp3"></audio>
+            </div> 
+            <div id="text">
+                Hi po enjoy!
+            </div>
+            <div id="images">
+                <div id="player" class="image" onclick="playObjectSound()"><img id="playerImg" src="images/blue/sprite_2.png" alt="hand-left"></div>
+                <div id="computer" class="image" onclick="playObjectSound()"><img id="computerImg" src="images/red/sprite_2.png"alt="hand-right"></div>
+                <audio id="playWin" src="sounds/marimba-win-f-2-209688.mp3"></audio>
+                <audio id="playLose" src="sounds/marimba-lose-250960.mp3"></audio>
+                <audio id="playDraw" src="sounds/marimba-bloop-3-188151.mp3"></audio>
+                
+            </div>
+            <div id="controls">
+                <button id="button1" onclick="playButtonSound()">Rock</button>
+                <button id="button2" onclick="playButtonSound()">Paper</button>
+                <button id="button3" onclick="playButtonSound()">Scissors</button>
+                <audio id="buttonPress" src="sounds/tiny-button-press-42598.mp3"></audio>
+            </div>
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+        <div class="falling-kwek-kwek">
+            <img src="images/kwek-kwek.png" alt="kwek-kwek">
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
