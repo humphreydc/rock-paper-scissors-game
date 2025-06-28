@@ -9,6 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: url("images/Group\ 132.png");
     background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden; 
 }
 
@@ -218,7 +219,7 @@ button:active {
 
     @keyframes fallAndRotate {
     100% {
-        transform: translate(-50%, 500px) rotate(360deg);
+        transform: translate(-50%, 800px) rotate(360deg);
     }
 }
 }
