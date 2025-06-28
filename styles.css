@@ -5,6 +5,7 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     background: url("images/Group\ 132.png");
     background-size: cover;
@@ -18,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px 500px;
+    margin: 20px auto;
     height: auto;
 }
 
@@ -140,7 +141,7 @@ button:active {
 
 @keyframes fallAndRotate {
     100% {
-        transform: translate(-50%, 1200px) rotate(360deg);
+        transform: translate(-50%, 1000px) rotate(360deg);
     }
 }
 
@@ -214,4 +215,10 @@ button:active {
     button {
         font-size: 24px;
     }
+
+    @keyframes fallAndRotate {
+    100% {
+        transform: translate(-50%, 500px) rotate(360deg);
+    }
+}
 }
