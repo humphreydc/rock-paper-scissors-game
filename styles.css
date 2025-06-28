@@ -9,16 +9,16 @@ body {
     background: url("images/Group\ 132.png");
     background-size: cover;
     overflow: hidden; 
-    height: 100vh;
 }
 
 #game {
     width: 550px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 20px 500px;
     height: auto;
 }
 
