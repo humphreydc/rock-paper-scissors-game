@@ -154,19 +154,19 @@ button:active {
 }
 
 .falling-kwek-kwek:nth-child(3) {
-    left: 33%;
+    left: 25%;
     animation-duration: 5.2s;
     animation-delay: 1.5s;
 }
 
 .falling-kwek-kwek:nth-child(4) {
-    left: 50%;
+    left: 45%;
     animation-duration: 5.5s;
     animation-delay: 3s;
 }
 
 .falling-kwek-kwek:nth-child(5) {
-    left: 65%;
+    left: 61%;
     animation-duration: 4s;
     animation-delay: 2s;
     transform: rotate(180deg);
