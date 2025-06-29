@@ -148,13 +148,13 @@ button:active {
 }
 
 .falling-kwek-kwek:nth-child(2) {
-    left: 14%;
+    left: 10%;
     animation-duration: 4.5s;
     animation-delay: 2s;
 }
 
 .falling-kwek-kwek:nth-child(3) {
-    left: 25%;
+    left: 23%;
     animation-duration: 5.2s;
     animation-delay: 1.5s;
 }
