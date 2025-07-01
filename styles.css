@@ -12,9 +12,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     font-family: 'Poppins', sans-serif;
-    background: url("images/Group\ 132.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+   
     display: flex;
     align-items: center;
     justify-content: center;
